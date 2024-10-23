@@ -37,6 +37,9 @@ Masukan bilangan(0 untuk berhenti): 7
 Masukan bilangan(0 untuk berhenti): 0
 Bilangan terbesar: 13
 ```
+## Cara Kerja Program
+Programmer memiliki proses kerja yang terstruktur dalam pembuatan program. Tujuannya adalah agar program yang dibuat bisa beroperasi dengan optimal. Bagaimana cara kerja programm?
+
 
 
 
