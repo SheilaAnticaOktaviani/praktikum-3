@@ -15,7 +15,7 @@ Program di buat menggunakan bahasa python
 - Membandingkan setiap input dengan nilai maksimum yang tersimpan
 - Menampilkan bilangan terbesar yang ditemukan
 ## Flowcart program
-![image](https://github.com/user-attachments/assets/e2738fa0-bf48-40ef-9421-e6bf1df6af4e)
+![image](https://github.com/user-attachments/assets/bf214e04-74d1-4199-891a-39908f45f595)
 ## Kode Program
 ```Python
 max = 0                                              
@@ -38,7 +38,9 @@ Masukan bilangan(0 untuk berhenti): 0
 Bilangan terbesar: 13
 ```
 ## Cara Kerja Program
+Program berfungsi untuk mencari bilangan terbesar dari input yang diberikan pengguna. Pertama, program menginisialisasi variabel max dengan nilai 0. Kemudian, program meminta pengguna untuk memasukkan bilangan. Jika bilangan yang dimasukkan bukan 0, program akan memeriksa apakah bilangan itu lebih besar dari nilai max. Jika iya, nilai max akan diperbarui dengan bilangan tersebut. Proses ini berulang hingga pengguna memasukkan 0, yang menandakan akhir dari input. Setelah itu, program mencetak bilangan terbesar yang ditemukan. 
 
+Namun, untuk meningkatkan program, bisa menginisialisasi max dengan None, sehingga dapat menangani situasi di mana pengguna langsung memasukkan 0 tanpa memberikan bilangan lain. Dengan cara ini, program akan lebih robust dan memberikan pesan yang sesuai jika tidak ada bilangan yang dimasukkan.
 
 
 
