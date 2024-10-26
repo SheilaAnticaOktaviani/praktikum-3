@@ -14,23 +14,28 @@ Program sederhana menentukan bilangan terbesar dari tiga angka yang diinputkan p
 - Lalu kita panggil kembali function mencari_biilangan_terbesar
 - Lalu Output bilangan terbesar dari ketiga bilangan yang di input akan muncul
 ## Flowcart Program
-![image](https://github.com/user-attachments/assets/3b9b6196-e33f-4c38-9540-a7aabcffdacd)
+![image](https://github.com/user-attachments/assets/af0aa097-6e69-40da-b433-ac4b7e3b5a74)
 ## Kode Program
 ```Python
-a = int(input("Masukkan angka: "))
-b = int(input("Masukkan angka: "))
-c = int(input("Masukkan angka: "))
+a = int(input("Masukkan bilangan A: "))
+b = int(input("Masukkan bilangan B: "))
+c = int(input("Masukkan bilangan C: "))
+
 if a > b:
     if a > c:
-        terbesar = a    
+        print("Terbesar adalah A")
+        terbesar = a
     else:
+        print("Terbesar adalah c")
         terbesar = c
 else:
     if b > c:
+        print("Terbesar adalah B")
         terbesar = b
-    else:      
-       terbesar = c 
-print(f"Bilangan terbesar adalah {terbesar}")
+    else:
+        print("Terbesar adalah C")
+
+print(f"Bilangan terbesar adalah: {terbesar}")
 ```
 ## Contoh Ouput Program
 ```Python
@@ -39,30 +44,16 @@ Masukkan angka: 27
 Masukkan angka: 7
 Bilangan terbesar adalah 27
 ```
+## Cara kerja
+Program bekerja dengan algoritma:
+Program menginisialisasi variabel max dengan nilai 0 Program memulai loop tak terbatas dengan while True Di dalam loop:
+
+Program meminta user memasukkan bilangan Jika user memasukkan 0, program akan keluar dari loop dengan break Jika bilangan yang dimasukkan lebih besar dari nilai maximum saat ini, nilai maximum diperbarui
+
+Setelah keluar dari loop, program menampilkan bilangan terbesar
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Program Mencari Bilangan Terbesar
+## 2.Program Mencari Bilangan Terbesar
 Program sederhana untuk mencari nilai terbesar dari sekumpulan bilangan yang dimasukkan oleh pengguna menggunakan loop while True dan break statement.
 ## Deskripsi Program
 Program di buat menggunakan bahasa python
